@@ -20,7 +20,7 @@
       margin: 0;
       padding: 0;
       font-family: Arial, sans-serif;
-      background: #fffaf3;
+      background: #f6f4ee;
       color: #1f2937;
       line-height: 1.6;
     }
@@ -43,9 +43,9 @@
       position: sticky;
       top: 0;
       z-index: 999;
-      background: rgba(255, 250, 243, 0.96);
+      background: rgba(246, 244, 238, 0.96);
       backdrop-filter: blur(12px);
-      border-bottom: 1px solid #f1dfc4;
+      border-bottom: 1px solid #ddd6c8;
     }
 
     .header-inner {
@@ -60,32 +60,39 @@
 
     .logo {
       text-decoration: none;
-      color: #2b1d12;
+      color: #1c2a24;
       font-size: 22px;
       font-weight: 900;
       letter-spacing: -0.5px;
     }
 
     .logo span {
-      color: #b45309;
+      color: #2f7d62;
     }
 
     .nav {
       display: flex;
       align-items: center;
-      gap: 20px;
+      gap: 18px;
       flex-wrap: wrap;
     }
 
     .nav a {
-      color: #4b3522;
+      color: #263c33;
       text-decoration: none;
       font-size: 15px;
       font-weight: 700;
     }
 
     .nav .header-btn {
-      background: #b45309;
+      background: #2f7d62;
+      color: #ffffff;
+      padding: 10px 18px;
+      border-radius: 40px;
+    }
+
+    .nav .profile-btn {
+      background: #1c2a24;
       color: #ffffff;
       padding: 10px 18px;
       border-radius: 40px;
@@ -96,7 +103,7 @@
     }
 
     .hero {
-      background: linear-gradient(135deg, #fff7ed 0%, #fffaf3 48%, #fef3c7 100%);
+      background: linear-gradient(135deg, #eef7f2 0%, #f6f4ee 48%, #e9dcc7 100%);
       padding: 90px 0 75px;
     }
 
@@ -109,8 +116,8 @@
 
     .badge {
       display: inline-block;
-      background: #ffedd5;
-      color: #9a3412;
+      background: #dcefe7;
+      color: #23674f;
       padding: 8px 16px;
       border-radius: 40px;
       font-size: 13px;
@@ -121,7 +128,7 @@
     h1 {
       font-size: 48px;
       line-height: 1.12;
-      color: #2b1d12;
+      color: #1c2a24;
       margin: 0 0 18px;
       font-weight: 900;
       letter-spacing: -1.1px;
@@ -130,20 +137,20 @@
     h2 {
       font-size: 38px;
       line-height: 1.25;
-      color: #2b1d12;
+      color: #1c2a24;
       margin: 0 0 14px;
       font-weight: 900;
       letter-spacing: -0.6px;
     }
 
     h3 {
-      color: #2b1d12;
+      color: #1c2a24;
       margin-top: 0;
       font-weight: 850;
     }
 
     p {
-      color: #5f4b3b;
+      color: #52635c;
     }
 
     .hero p {
@@ -169,27 +176,27 @@
     }
 
     .btn-primary {
-      background: #b45309;
+      background: #2f7d62;
       color: #ffffff;
     }
 
     .btn-dark {
-      background: #2b1d12;
+      background: #1c2a24;
       color: #ffffff;
     }
 
     .btn-light {
       background: #ffffff;
-      color: #b45309;
-      border: 1px solid #fed7aa;
+      color: #2f7d62;
+      border: 1px solid #b7d8ca;
     }
 
     .hero-card {
       background: #ffffff;
-      border: 1px solid #f1dfc4;
+      border: 1px solid #ddd6c8;
       border-radius: 30px;
       padding: 14px;
-      box-shadow: 0 24px 55px rgba(120, 53, 15, 0.12);
+      box-shadow: 0 24px 55px rgba(28, 42, 36, 0.12);
     }
 
     .hero-card img {
@@ -201,8 +208,8 @@
     }
 
     .mini-card {
-      background: #fff7ed;
-      border: 1px solid #fed7aa;
+      background: #eef7f2;
+      border: 1px solid #c8e4d8;
       border-radius: 22px;
       padding: 18px;
       margin-top: 14px;
@@ -222,24 +229,30 @@
 
     .info-card {
       background: #ffffff;
-      border: 1px solid #f1dfc4;
+      border: 1px solid #ddd6c8;
       border-radius: 26px;
       padding: 30px;
-      box-shadow: 0 12px 35px rgba(120, 53, 15, 0.06);
+      box-shadow: 0 12px 35px rgba(28, 42, 36, 0.06);
     }
 
     .info-card.alt-1 {
-      background: #fff7ed;
-      border-color: #fed7aa;
+      background: #eef7f2;
+      border-color: #c8e4d8;
     }
 
     .info-card.alt-2 {
-      background: #fffbeb;
-      border-color: #fde68a;
+      background: #f8efe2;
+      border-color: #ead7ba;
+    }
+
+    .info-card a {
+      color: #2f7d62;
+      font-weight: 800;
+      text-decoration: none;
     }
 
     .services-section {
-      background: #fff7ed;
+      background: #eef7f2;
     }
 
     .section-head {
@@ -263,17 +276,17 @@
 
     .service-card {
       background: #ffffff;
-      border: 1px solid #f1dfc4;
+      border: 1px solid #c8e4d8;
       border-radius: 26px;
       padding: 28px;
-      box-shadow: 0 12px 35px rgba(120, 53, 15, 0.06);
+      box-shadow: 0 12px 35px rgba(28, 42, 36, 0.06);
     }
 
     .number-box {
       width: 50px;
       height: 50px;
-      background: #ffedd5;
-      color: #9a3412;
+      background: #dcefe7;
+      color: #23674f;
       border-radius: 17px;
       display: flex;
       align-items: center;
@@ -295,21 +308,21 @@
     }
 
     .service-card a {
-      color: #b45309;
+      color: #2f7d62;
       font-weight: 800;
       text-decoration: none;
     }
 
     .keywords-section {
-      background: #fffaf3;
+      background: #f6f4ee;
     }
 
     .keywords-box {
       background: #ffffff;
-      border: 1px solid #f1dfc4;
+      border: 1px solid #ddd6c8;
       border-radius: 30px;
       padding: 36px;
-      box-shadow: 0 16px 45px rgba(120, 53, 15, 0.08);
+      box-shadow: 0 16px 45px rgba(28, 42, 36, 0.08);
     }
 
     .keyword-tags {
@@ -320,9 +333,9 @@
     }
 
     .keyword-tags a {
-      background: #fff7ed;
-      color: #9a3412;
-      border: 1px solid #fed7aa;
+      background: #eef7f2;
+      color: #23674f;
+      border: 1px solid #c8e4d8;
       border-radius: 40px;
       padding: 10px 15px;
       font-size: 13px;
@@ -335,10 +348,10 @@
     }
 
     .process-box {
-      background: linear-gradient(135deg, #2b1d12, #78350f);
+      background: linear-gradient(135deg, #1c2a24, #2f7d62);
       border-radius: 30px;
       padding: 38px;
-      box-shadow: 0 24px 55px rgba(120, 53, 15, 0.20);
+      box-shadow: 0 24px 55px rgba(28, 42, 36, 0.20);
     }
 
     .process-box h2,
@@ -347,7 +360,7 @@
     }
 
     .process-box p {
-      color: #ffedd5;
+      color: #dcefe7;
     }
 
     .process-grid {
@@ -365,15 +378,15 @@
     }
 
     .contact-section {
-      background: #fff7ed;
+      background: #f8efe2;
     }
 
     .contact-wrap {
       background: #ffffff;
-      border: 1px solid #f1dfc4;
+      border: 1px solid #ead7ba;
       border-radius: 30px;
       padding: 36px;
-      box-shadow: 0 18px 48px rgba(120, 53, 15, 0.10);
+      box-shadow: 0 18px 48px rgba(28, 42, 36, 0.10);
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
       gap: 34px;
@@ -386,7 +399,7 @@
     }
 
     .contact-wrap a {
-      color: #b45309;
+      color: #2f7d62;
       font-weight: 800;
       text-decoration: none;
     }
@@ -400,7 +413,7 @@
     }
 
     .footer {
-      background: #2b1d12;
+      background: #1c2a24;
       color: #ffffff;
       padding: 64px 0 24px;
     }
@@ -420,13 +433,13 @@
 
     .footer p,
     .footer a {
-      color: #ffedd5;
+      color: #dcefe7;
       text-decoration: none;
       font-size: 15px;
     }
 
     .footer a:hover {
-      color: #fbbf24;
+      color: #b7d8ca;
     }
 
     .footer .btn-primary {
@@ -443,7 +456,7 @@
     }
 
     .footer-bottom p {
-      color: #fcd9b6;
+      color: #b7d8ca;
       margin: 0;
       font-size: 14px;
     }
@@ -489,7 +502,7 @@
 
   <header class="site-header">
     <div class="header-inner">
-      <a href="#home" class="logo">The Local <span>SEO</span> Company</a>
+      <a href="https://thelocalseo.co/" target="_blank" class="logo">The Local <span>SEO</span> Company</a>
 
       <nav class="nav">
         <a href="#home">Home</a>
@@ -498,7 +511,8 @@
         <a href="#keywords">Keywords</a>
         <a href="#process">Process</a>
         <a href="#contact">Contact</a>
-        <a href="tel:9878181325" class="header-btn">Call Now</a>
+        <a href="https://thelocalseo.co/" target="_blank" class="header-btn">Main Website</a>
+        <a href="https://share.google/SjYBkeOHoYtyvLysZ" target="_blank" class="profile-btn">Google Profile</a>
       </nav>
     </div>
   </header>
@@ -520,20 +534,23 @@
         </p>
 
         <div class="btn-row">
-          <a href="#services" class="btn btn-primary">View Services</a>
-          <a href="#about" class="btn btn-light">About Us</a>
-          <a href="#contact" class="btn btn-dark">Contact Us</a>
+          <a href="https://thelocalseo.co/" target="_blank" class="btn btn-primary">Visit Main Website</a>
+          <a href="https://share.google/SjYBkeOHoYtyvLysZ" target="_blank" class="btn btn-light">View Google Profile</a>
+          <a href="#contact" class="btn btn-dark">Contact Details</a>
         </div>
       </div>
 
       <div class="hero-card">
-        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1100&q=80" alt="SEO analytics dashboard">
+        <a href="https://thelocalseo.co/" target="_blank">
+          <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1100&q=80" alt="SEO analytics dashboard">
+        </a>
 
         <div class="mini-card">
           <h3>Visibility That Brings Enquiries</h3>
           <p>
             Better search presence, stronger profile details and clearer customer actions help your business get found and trusted faster.
           </p>
+          <a href="https://thelocalseo.co/" target="_blank" style="color:#2f7d62;font-weight:800;text-decoration:none">Explore SEO Services</a>
         </div>
       </div>
 
@@ -549,6 +566,10 @@
         <p>
           The Local SEO Company is focused on helping businesses improve their online visibility through practical SEO strategies, Google Business Profile optimization, business listings, website SEO and local search improvement.
         </p>
+        <div class="btn-row" style="justify-content:center">
+          <a href="https://thelocalseo.co/" target="_blank" class="btn btn-primary">Visit Main Website</a>
+          <a href="https://share.google/SjYBkeOHoYtyvLysZ" target="_blank" class="btn btn-light">Check Google Profile</a>
+        </div>
       </div>
 
       <div class="cards-3">
@@ -561,6 +582,7 @@
           <p>
             Our approach is built around clarity, better online structure and actions that help customers contact your business more easily.
           </p>
+          <a href="https://thelocalseo.co/" target="_blank">Know More</a>
         </div>
 
         <div class="info-card alt-1">
@@ -569,18 +591,20 @@
             We improve Google Business Profile details, service pages, local keywords, technical SEO basics, business citations, listings and enquiry flow.
           </p>
           <p>
-            Every improvement is planned to support better discovery, stronger trust and more useful customer actions.
+            Every improvement supports better discovery, stronger trust and more useful customer actions.
           </p>
+          <a href="https://thelocalseo.co/" target="_blank">View Website</a>
         </div>
 
         <div class="info-card alt-2">
-          <h3>Who We Support</h3>
+          <h3>Where Customers Find You</h3>
           <p>
-            We support service providers, local stores, clinics, consultants, agencies, real estate businesses, hotels and other location-focused brands.
+            Customers often find local businesses through Google Search, Google Maps, business listings, website pages and reviews.
           </p>
           <p>
-            Whether your goal is more calls, website enquiries or map visibility, we help create a stronger local presence.
+            A stronger Google profile and website presence can help your business look more reliable.
           </p>
+          <a href="https://share.google/SjYBkeOHoYtyvLysZ" target="_blank">Open Google Profile</a>
         </div>
 
       </div>
@@ -600,7 +624,7 @@
           </p>
         </div>
 
-        <a href="#contact" class="btn btn-primary">Get Consultation</a>
+        <a href="https://thelocalseo.co/" target="_blank" class="btn btn-primary">Explore Services</a>
       </div>
 
       <div class="services-grid">
@@ -611,7 +635,7 @@
           <p>
             We optimize your Google Business Profile with better categories, services, descriptions, photos, updates, FAQs and contact actions.
           </p>
-          <a href="#contact">Optimize My GMB</a>
+          <a href="https://share.google/SjYBkeOHoYtyvLysZ" target="_blank">View Google Profile</a>
         </div>
 
         <div class="service-card">
@@ -620,7 +644,7 @@
           <p>
             We plan local keywords, service keywords, city targeting, competitor direction and search visibility improvements.
           </p>
-          <a href="#contact">Start Local SEO</a>
+          <a href="https://thelocalseo.co/" target="_blank">Start Local SEO</a>
         </div>
 
         <div class="service-card">
@@ -629,7 +653,7 @@
           <p>
             We create and improve local citations with consistent business name, address, phone number and website details.
           </p>
-          <a href="#contact">Improve Citations</a>
+          <a href="https://thelocalseo.co/" target="_blank">Improve Citations</a>
         </div>
 
         <div class="service-card">
@@ -638,7 +662,7 @@
           <p>
             We help your business appear on relevant listing platforms with accurate business details and improved online credibility.
           </p>
-          <a href="#contact">Build Listings</a>
+          <a href="https://thelocalseo.co/" target="_blank">Build Listings</a>
         </div>
 
         <div class="service-card">
@@ -647,7 +671,7 @@
           <p>
             We improve technical SEO basics such as metadata, headings, indexing structure, internal links and schema opportunities.
           </p>
-          <a href="#contact">Improve Technical SEO</a>
+          <a href="https://thelocalseo.co/" target="_blank">Improve Technical SEO</a>
         </div>
 
         <div class="service-card">
@@ -656,7 +680,7 @@
           <p>
             We review your website, Google profile, keywords, visibility gaps and competitors with clear improvement actions.
           </p>
-          <a href="#contact">Request SEO Audit</a>
+          <a href="https://thelocalseo.co/" target="_blank">Request SEO Audit</a>
         </div>
 
       </div>
@@ -677,17 +701,22 @@
         </p>
 
         <div class="keyword-tags">
-          <a href="#contact">SEO Company Near Me</a>
-          <a href="#contact">Local Citation Services in Chandigarh</a>
-          <a href="#contact">Business Listing Services in Chandigarh</a>
-          <a href="#contact">Technical SEO Services Chandigarh</a>
-          <a href="#contact">GMB Optimization Services in Zirakpur</a>
-          <a href="#contact">SEO Audit Services Chandigarh</a>
-          <a href="#contact">Local SEO Services in Zirakpur</a>
-          <a href="#contact">SEO Company Chandigarh</a>
-          <a href="#contact">Google Profile Optimization</a>
-          <a href="#contact">Local Business SEO</a>
-          <a href="#contact">Google Maps SEO</a>
+          <a href="https://thelocalseo.co/" target="_blank">SEO Company Near Me</a>
+          <a href="https://thelocalseo.co/" target="_blank">Local Citation Services in Chandigarh</a>
+          <a href="https://thelocalseo.co/" target="_blank">Business Listing Services in Chandigarh</a>
+          <a href="https://thelocalseo.co/" target="_blank">Technical SEO Services Chandigarh</a>
+          <a href="https://share.google/SjYBkeOHoYtyvLysZ" target="_blank">GMB Optimization Services in Zirakpur</a>
+          <a href="https://thelocalseo.co/" target="_blank">SEO Audit Services Chandigarh</a>
+          <a href="https://thelocalseo.co/" target="_blank">Local SEO Services in Zirakpur</a>
+          <a href="https://thelocalseo.co/" target="_blank">SEO Company Chandigarh</a>
+          <a href="https://share.google/SjYBkeOHoYtyvLysZ" target="_blank">Google Profile Optimization</a>
+          <a href="https://thelocalseo.co/" target="_blank">Local Business SEO</a>
+          <a href="https://share.google/SjYBkeOHoYtyvLysZ" target="_blank">Google Maps SEO</a>
+        </div>
+
+        <div class="btn-row">
+          <a href="https://thelocalseo.co/" target="_blank" class="btn btn-primary">Open Main Website</a>
+          <a href="https://share.google/SjYBkeOHoYtyvLysZ" target="_blank" class="btn btn-light">Open Google Profile</a>
         </div>
       </div>
 
@@ -730,6 +759,11 @@
           </div>
 
         </div>
+
+        <div class="btn-row">
+          <a href="https://thelocalseo.co/" target="_blank" class="btn btn-primary">Visit Main Website</a>
+          <a href="https://share.google/SjYBkeOHoYtyvLysZ" target="_blank" class="btn btn-light">View Google Profile</a>
+        </div>
       </div>
 
     </div>
@@ -750,6 +784,16 @@
           </p>
 
           <p>
+            <strong>Main Website:</strong>
+            <a href="https://thelocalseo.co/" target="_blank">https://thelocalseo.co/</a>
+          </p>
+
+          <p>
+            <strong>Google Profile:</strong>
+            <a href="https://share.google/SjYBkeOHoYtyvLysZ" target="_blank">Open Google Profile</a>
+          </p>
+
+          <p>
             <strong>Phone:</strong>
             <a href="tel:9878181325">9878181325</a>
             /
@@ -761,15 +805,10 @@
             <a href="mailto:westoestates@gmail.com">westoestates@gmail.com</a>
           </p>
 
-          <p>
-            <strong>Website:</strong>
-            <a href="https://thelocalseo.co/" target="_blank">thelocalseo.co</a>
-          </p>
-
           <div class="btn-row">
-            <a href="tel:9878181325" class="btn btn-primary">Call Now</a>
-            <a href="#contact" class="btn btn-light">View Full Contact</a>
-            <a href="https://thelocalseo.co/" target="_blank" class="btn btn-dark">Open Website</a>
+            <a href="https://thelocalseo.co/" target="_blank" class="btn btn-primary">Open Website</a>
+            <a href="https://share.google/SjYBkeOHoYtyvLysZ" target="_blank" class="btn btn-light">Open Location</a>
+            <a href="#contact" class="btn btn-dark">Footer Contact</a>
           </div>
         </div>
 
@@ -792,7 +831,10 @@
           <p>
             Helping local businesses improve Google visibility, Google Business Profile performance, local citations, business listings, technical SEO and search-focused enquiry flow.
           </p>
-          <a href="tel:9878181325" class="btn btn-primary">Call Now</a>
+          <div class="btn-row">
+            <a href="https://thelocalseo.co/" target="_blank" class="btn btn-primary">Main Website</a>
+            <a href="https://share.google/SjYBkeOHoYtyvLysZ" target="_blank" class="btn btn-light">Google Profile</a>
+          </div>
         </div>
 
         <div>
@@ -810,6 +852,7 @@
           <p>Phone: <a href="tel:9878181325">9878181325</a> / <a href="tel:9667950044">9667950044</a></p>
           <p>Email: <a href="mailto:westoestates@gmail.com">westoestates@gmail.com</a></p>
           <p>Website: <a href="https://thelocalseo.co/" target="_blank">thelocalseo.co</a></p>
+          <p>Google Profile: <a href="https://share.google/SjYBkeOHoYtyvLysZ" target="_blank">Open Profile</a></p>
         </div>
 
         <div>
@@ -818,13 +861,20 @@
             2nd Floor, Tricity Plaza, 243, Peer Muchalla Rd, Sector 20, Zirakpur, Sanauli, Punjab 140603
           </p>
           <p><a href="https://share.google/SjYBkeOHoYtyvLysZ" target="_blank">Open Google Location</a></p>
+          <p><a href="https://thelocalseo.co/" target="_blank">Visit Main Website</a></p>
         </div>
 
       </div>
 
       <div class="footer-bottom">
         <p>© 2026 The Local SEO Company. All Rights Reserved.</p>
-        <p>SEO Company Near Me | GMB Optimization | Technical SEO</p>
+        <p>
+          <a href="https://thelocalseo.co/" target="_blank">SEO Company Near Me</a>
+          |
+          <a href="https://share.google/SjYBkeOHoYtyvLysZ" target="_blank">GMB Optimization</a>
+          |
+          <a href="https://thelocalseo.co/" target="_blank">Technical SEO</a>
+        </p>
       </div>
 
     </div>
